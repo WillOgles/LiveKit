@@ -2,13 +2,13 @@
 
 apt-get update
 apt-get install -y apache2
-if ! [ -L /var/www ]; then
-  rm -rf /var/www
-  ln -fs /vagrant /var/www
+if ! [ -L /var/www/html ]; then
+  rm -rf /var/www/html
+  ln -fs /vagrant /var/www/html
 fi
 
 # install NodeJS and NPM
-wget -P ~/Downloads/ https://nodejs.org/dist/v4.3.0/node-v4.3.0-linux-x64.tar.xz
+wget -nv -P ~/Downloads/ https://nodejs.org/dist/v4.3.0/node-v4.3.0-linux-x64.tar.xz
 tar --strip-components 1 -xf ~/Downloads/node-v4.3.0-linux-x64.tar.xz -C /usr/local
 #verify NodeJS and NPM
 node -v
