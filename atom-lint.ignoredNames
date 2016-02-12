@@ -1,0 +1,4 @@
+'atom-lint':
+  'ignoredNames': [
+    'patternlab/source/css/style.css'
+  ]

@@ -1,0 +1,22 @@
+{
+  "name": "livekit",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chris24dmr/livekit",
+  "authors": [
+    "Chris Deemer <chrisdeemer@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "bourbon": "~4.2.6",
+    "neat": "~1.7.2"
+  }
+}
