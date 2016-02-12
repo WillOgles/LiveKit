@@ -11,9 +11,25 @@ eCommerce Pattern Library
 5.  change directory in terminal into cloned repo
 6.  `$ vagrant up`
 7.  `$ vagrant ssh`
-8.  `$ cd /vagrant`
+8.  `$ cd /livekit`
 9.  `$ npm --prefix patternlab install patternlab`
 10. `$ npm install` gulp build tools for our sass
 11. `$ bower install` to download third-party libraries
 12. `$ gulp` to compile output css and build patternlab
 13. Access Pattern Lab at <http://livekit/patternlab/public/>
+
+## Build CSS from sass
+
+After ssh'ing into vagrent@livekit and changing into your
+ working directory, `/livekit`, run `$ gulp sass`.
+
+This will lint the sass files in `/livekit/styles/source`
+ according to our rules build the output css files in `/livekit/styles/public`.
+
+## Rebuild Pattern Lab
+
+This is necessary after altering templates in Pattern Lab.
+
+After ssh'ing into vagrent@livekit and changing into your
+ working directory, `/livekit`, run `$ gulp lab`.
+ 
