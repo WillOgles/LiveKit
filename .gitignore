@@ -1,5 +1,8 @@
 # vagrant files
 .vagrant
 
-# node modules
 node_modules
+patternlab/public
+patternlab/node_modules
+
+styles/public

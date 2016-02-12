@@ -1,0 +1,75 @@
+{
+  "name": "patternlab-node",
+  "description": "Pattern Lab is a collection of tools to help you create atomic design systems. This is the node command line interface (CLI).",
+  "version": "1.1.0",
+  "main": "./builder/patternlab.js",
+  "dependencies": {
+    "diveSync": "^0.3.0",
+    "fs-extra": "^0.26.2",
+    "glob": "^6.0.1",
+    "html-entities": "^1.2.0",
+    "matchdep": "^1.0.0",
+    "mustache": "^2.2.0"
+  },
+  "devDependencies": {
+    "bs-html-injector": "^3.0.0",
+    "grunt": "~0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Grunt",
+    "Gulp",
+    "Javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pattern-lab/patternlab-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pattern-lab/patternlab-node/issues"
+  },
+  "author": {
+    "name": "Brian Muenzenmeyer"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "engines": {
+    "node": ">=0.1"
+  },
+  "gitHead": "5293fb9a77f5d3dcc56b3d5d7cc9da7f9ee23dd0",
+  "homepage": "https://github.com/pattern-lab/patternlab-node#readme",
+  "_id": "patternlab-node@1.1.0",
+  "_shasum": "07b82827a9f7c43e605102304dcf3793aaf025e6",
+  "_from": "patternlab-node@latest",
+  "_npmVersion": "3.3.6",
+  "_nodeVersion": "5.0.0",
+  "_npmUser": {
+    "name": "bmuenzenmeyer",
+    "email": "brian.muenzenmeyer@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "bmuenzenmeyer",
+      "email": "brian.muenzenmeyer@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "07b82827a9f7c43e605102304dcf3793aaf025e6",
+    "tarball": "http://registry.npmjs.org/patternlab-node/-/patternlab-node-1.1.0.tgz"
+  },
+  "_npmOperationalInternal": {
+    "host": "packages-9-west.internal.npmjs.com",
+    "tmp": "tmp/patternlab-node-1.1.0.tgz_1454998804751_0.5730503227096051"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/patternlab-node/-/patternlab-node-1.1.0.tgz"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "livekit",
+  "version": "1.0.0",
+  "description": "liveKit eCommerce pattern library",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris24dmr/livekit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris24dmr/livekit/issues"
+  },
+  "homepage": "https://github.com/chris24dmr/livekit#readme"
+}
