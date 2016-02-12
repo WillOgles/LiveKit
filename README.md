@@ -8,9 +8,12 @@ eCommerce Pattern Library
 2.  install Vagrant cli
 3.  install Vagrant Host Manager `$ vagrant plugin install vagrant-hostmanager`
 4.  clone repo
-5.  `$ vagrant up`
-6.  `$ vagrant ssh`
-7.  `$ cd /vagrant/patternlab`
-8.  `$ npm install`
-9.  `$ gulp` to build the patternlab public files
-10. Access Pattern Lab at <http://livekit/patternlab/public/>
+5.  change directory in terminal into cloned repo
+6.  `$ vagrant up`
+7.  `$ vagrant ssh`
+8.  `$ cd /vagrant`
+9.  `$ npm --prefix patternlab install patternlab`
+10. `$ npm install` gulp build tools for our sass
+11. `$ bower install` to download third-party libraries
+12. `$ gulp` to compile output css and build patternlab
+13. Access Pattern Lab at <http://livekit/patternlab/public/>

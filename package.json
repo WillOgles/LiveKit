@@ -1,16 +1,14 @@
 {
   "name": "livekit",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "liveKit eCommerce pattern library",
-  "main": "index.js",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
   "devDependencies": {
-    "gulp": "^3.9.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "^3.9.1",
+    "gulp-chug": "^0.5.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sass-lint": "^1.1.1",
+    "node-sass": "^3.4.2",
+    "sass-lint": "^1.5.0"
   },
   "repository": {
     "type": "git",

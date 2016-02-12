@@ -1,7 +1,10 @@
 # vagrant files
 .vagrant
 
+# third-party libraries and modules
 node_modules
+bower_components
+
 patternlab/public
 patternlab/node_modules
 

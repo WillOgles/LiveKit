@@ -14,6 +14,8 @@ tar --strip-components 1 -xf ~/Downloads/node-v4.3.0-linux-x64.tar.xz -C /usr/lo
 node -v
 npm -v
 # install Gulp globally
-npm install --global gulp-cli
+npm install -g gulp-cli
+# install bower globally
+npm install -g bower
 
 cp /vagrant/.bashrc /home/vagrant/.bashrc
