@@ -13,7 +13,7 @@ if [ -f ~/Downloads/node-v4.3.0-linux-x64.tar.xz ];
 then
    echo "Node binaries already downloaded"
 else
-   echo "Need to download Node binaries"
+   echo "Downloading Node binaries"
    wget -nv -P ~/Downloads/ https://nodejs.org/dist/v4.3.0/node-v4.3.0-linux-x64.tar.xz
    tar --strip-components 1 -xf ~/Downloads/node-v4.3.0-linux-x64.tar.xz -C /usr/local
 fi
