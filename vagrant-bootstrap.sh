@@ -4,7 +4,7 @@ apt-get update
 apt-get install -y apache2
 if ! [ -L /var/www/html ]; then
   rm -rf /var/www/html
-  ln -fs /vagrant /var/www/html
+  ln -fs /livekit /var/www/html
 fi
 apt-get install git-all
 
