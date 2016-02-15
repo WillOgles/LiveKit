@@ -20,15 +20,16 @@ eCommerce Pattern Library
 
 ## Build CSS from Sass
 
-After ssh'ing into vagrent@livekit and changing into your
+After ssh'ing into vagrant@livekit and changing into your
  working directory, `/livekit`, run `$ gulp sass`.
 
 This will lint the sass files in `/livekit/styles/source`
- according to our rules build the output css files in `/livekit/styles/public`.
+ according to our rule and 
+ build the output css files in `/livekit/styles/public`.
 
 ## Rebuild Pattern Lab
 
 This is necessary after altering templates in Pattern Lab.
 
-After ssh'ing into vagrent@livekit and changing into your
+After ssh'ing into vagrant@livekit and changing into your
  working directory, `/livekit`, run `$ gulp lab`.
