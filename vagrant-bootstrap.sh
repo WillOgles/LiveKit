@@ -6,7 +6,7 @@ if ! [ -L /var/www/html ]; then
   rm -rf /var/www/html
   ln -fs /livekit /var/www/html
 fi
-apt-get install -y git-all
+apt-get install -y git
 
 # install NodeJS and NPM
 if [ -f ~/Downloads/node-v4.3.0-linux-x64.tar.xz ];
@@ -27,3 +27,12 @@ npm install -g gulp-cli
 npm install -g bower
 
 cp /livekit/.bashrc /home/vagrant/.bashrc
+
+echo "installing livekit and patternlab dependencies"
+cd /livekit
+npm --prefix patternlab install patternlab
+npm install
+bower install --allow-root
+echo "compiling patternlab and livekit css for first time"
+gulp
+echo "finished compiling livekit"
