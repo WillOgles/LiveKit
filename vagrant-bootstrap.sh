@@ -6,7 +6,7 @@ if ! [ -L /var/www/html ]; then
   rm -rf /var/www/html
   ln -fs /livekit /var/www/html
 fi
-apt-get install git-all
+apt-get install -y git-all
 
 # install NodeJS and NPM
 if [ -f ~/Downloads/node-v4.3.0-linux-x64.tar.xz ];
